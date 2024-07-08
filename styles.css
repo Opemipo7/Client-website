@@ -1,0 +1,14 @@
+/* Custom CSS for the fashion website */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.btn-primary {
+    background-color: #3490dc;
+    border-color: #3490dc;
+}
+
+.btn-primary:hover {
+    background-color: #2779bd;
+    border-color: #2779bd;
+}
