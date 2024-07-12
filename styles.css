@@ -12,6 +12,17 @@ body {
     border-color: #2779bd;
 }
 
+.btn-gold {
+    background-color: #d4af37;
+    border-color: #d4af37;
+    color: white;
+}
+
+.btn-gold:hover {
+    background-color: #b08d2c;
+    border-color: #b08d2c;
+}
+
 /* Additional color classes */
 .text-primary {
     color: #3490dc;
@@ -19,6 +30,10 @@ body {
 
 .text-secondary {
     color: #6c757d;
+}
+
+.text-gold {
+    color: #d4af37;
 }
 
 .bg-primary {
