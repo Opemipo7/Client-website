@@ -12,14 +12,33 @@ body {
     border-color: #2779bd;
 }
 
+/* Additional color classes */
+.text-primary {
+    color: #3490dc;
+}
+
+.text-secondary {
+    color: #6c757d;
+}
+
+.bg-primary {
+    background-color: #3490dc;
+}
+
+.bg-secondary {
+    background-color: #6c757d;
+}
+
 .card-title {
-    color: #2d3748;
+    color: #333;
 }
 
 .card-text {
-    color: #4a5568;
+    color: #555;
 }
 
-footer {
-    background-color: #1a202c;
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
 }

@@ -1,4 +1,4 @@
-document.getElementById('contact-form').addEventListener('submit', function(event) {
+ddocument.getElementById('contact-form').addEventListener('submit', function(event) {
     event.preventDefault();
     
     const name = document.getElementById('name').value;
@@ -10,4 +10,12 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     console.log(`Message: ${message}`);
 
     alert('Thank you for your message!');
+});
+
+/* Make buttons clickable */
+const viewDetailsButtons = document.querySelectorAll('.btn-primary');
+viewDetailsButtons.forEach(button => {
+    button.addEventListener('click', function() {
+        alert('View Details button clicked!');
+    });
 });
