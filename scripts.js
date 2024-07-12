@@ -1,5 +1,3 @@
-// Custom JS for the fashion website
-
 document.getElementById('contact-form').addEventListener('submit', function(event) {
     event.preventDefault();
     
